@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+.navbar {
+    background-color: rgba(243, 243, 255, 0.78);
+}
+
+.nav-content {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav-content a {
+    margin-left: 20px;
+    color: grey;
+}
+
+.nav-content a:hover {
+    color: black;
+}
+
+.carousel-caption h2 {
+    font-size: 2rem;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.carousel-caption p {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.centered-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#about p {
+    text-align: center;
+}
+
+#about .row1 span {
+    color: rgb(153, 38, 38);
+    font-weight: 600;
+}
+
+#about-head {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    color: rgb(29, 27, 27);
+    font-size: 1.8rem;
+}
+
+.about-para {
+    font-family: 'Cabin', sans-serif;
+    color: grey;
+    font-style: italic;
+}
+
+.History-head {
+    font-family: "Great Vibes", cursive;
+    font-size: 3.5rem;
+    color: rgb(153, 38, 38);
+}
+
+.History-para {
+    font-family: 'Cabin', sans-serif;
+    color: grey;
+}
+
+.msg1 {
+    font-family: 'Cabin', sans-serif;
+    color: grey;
+    font-style: italic;
+    font-size: 1.2rem;
+
+}
+
+.msg2 {
+    font-family: 'Cabin', sans-serif;
+    color: grey;
+    font-style: italic;
+    font-size: 1.2rem;
+
+}
+
+.msg-head {
+    font-family: 'Cabin', sans-serif;
+    color: rgb(29, 27, 27);
+    font-size: 1.7rem;
+
+}
+
+.msg-name {
+    font-family: 'Cabin', sans-serif;
+    color: grey;
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.working-hours-main {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/04.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.working-hours {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.working-hours h1 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.working-hours h2 {
+    color: white;
+    font-family: "Yellowtail", cursive;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.row4 {
+    color: white;
+    font-family: "Yellowtail", cursive;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.menu-img {
+    width: 150px;
+}
+
+.outlet-head {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 3.8rem;
+    color: rgb(153, 38, 38);
+}
+
+.menu-list h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+}
+
+.loc {
+    color: rgb(9, 56, 9);
+    text-decoration: none;
+}
+
+.menu-doc {
+    color: rgb(153, 38, 38);
+}
+
+#gallery {
+    background-color: black;
+}
+
+.row-gallery {
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.row-gallery h3 {
+    padding-top: 5rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+
+}
+
+.row-gallery p {
+    font-family: 'Cabin', sans-serif;
+    color: grey;
+    font-style: italic;
+}
+
+/* Container for the image and overlay */
+.image-container {
+    position: relative;
+    width: 427px;
+    /* Adjust the width as needed */
+}
+
+/* The image */
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* The overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the alpha value for transparency */
+    opacity: 0;
+    /* Initially invisible */
+    transition: opacity 0.3s ease;
+    /* Smooth transition on hover */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* The button inside the overlay */
+.overlay button {
+    padding: 10px 20px;
+    background-color: #fff;
+    /* Button background color */
+    color: #000;
+    /* Button text color */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Show overlay on hover */
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-images button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    /* Add other styling as needed */
+}
+
+.gallery-images i {
+    font-size: 3rem;
+    color: white;
+}
+
+.gallery-bottom {
+    height: 130px;
+    background-color: black;
+}
+
+.row-reservation {
+    text-align: center;
+}
+
+.reservation-head {
+    padding-top: 5rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+
+.reservation-para {
+    font-family: 'Cabin', sans-serif;
+    color: grey;
+    font-style: italic;
+
+}
+.row-reservation img{
+    width: 120px;
+    height: 60px;
+}
+.row-reservation h3{
+    font-family: "Great Vibes", cursive;
+    font-weight: 600;
+    
+}
+.row-reservation h1{
+    color: #444342;
+    font-family: "Oswald", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.booking-contact label{
+    font-weight: 700;
+
+}
+.reservation-button{
+    font-size: 20px; 
+    padding: 30px;
+     border-color:  rgb(153, 38, 38);
+     background-color: transparent;
+     border-radius: 10px;
+}
+.reservation-button:hover{
+    color: white;
+    background-color: rgb(153, 38, 38) ;
+}
+/* Custom CSS to change highlight color on focus */
+.booking-contact .form-control:focus {
+    border-color: #afa54d; /* Change this color to the desired highlight color */
+    box-shadow: 0 0 0 0.2rem rgba(194, 221, 44, 0.25);
+}
+.follow-bg{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+.follow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 5;
+}
+.follow-overlay h1{
+padding-top: 5rem;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: white;
+}
+.follow-overlay .row{
+padding-left: 4rem;
+padding-right: 4rem;
+}
+.follow-overlay .col-3{
+text-align: center;
+font-size: 4rem;
+padding-top: 3rem;
+}
+.follow-overlay .col-3 a{
+color: white;
+}
+.map{
+    width: 100%;
+    height:0;
+    padding-bottom: 75%;
+    position: relative;
+}
+.map iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    height: 120px;
+    background-color: black;
+    color: gray;
+    font-size: 1rem;
+    text-align: center;
+}
+footer p{
+    padding-top: 2rem;
+}
+.icon{
+        width: 80px;
+        height: 80px;
+        /* border: solid 1px; */
+        background-color: grey;
+        margin: 1rem 1rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+}
+.brand{
+    color: black;
+    font-size: 40px;
+}
+.up-arrow{
+    float: right;
+    margin: -40px 30px 30px 0px;
+}
+
